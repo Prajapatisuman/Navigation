@@ -1,0 +1,72 @@
+/* #mi{
+background-color: aquamarine;
+width:300px;
+display:inline-block;
+
+}
+#csk{
+    background-color:red;
+    display:inline;
+    width:200px;
+    
+
+}
+#rcb{
+    background-color:red;
+    display:block;
+    width:200px;
+
+}
+body{
+     display:flex; 
+     all are convert into inline property.  
+} */
+nav{
+    display:flex;
+justify-content:space-between;
+background-color:lightcoral;
+color:blueviolet;
+padding:0px 25px;
+
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    background-color: blanchedalmond;
+    padding: 0px 20px;
+    margin-top:20px;
+
+}
+#left{
+    display:flex;
+    gap: 20px;
+
+}
+h1{
+    margin-left:20px;
+}
+#right{
+    display:flex;
+    gap:60px; 
+}
+section{
+    background-color: lightgreen;
+    display:flex;
+    justify-content: center;
+    padding:20px;
+    margin-top:20px;
+}
+#center{
+
+    display:flex;
+    gap:50px;
+}
+a{
+    text-decoration: none;
+    color:brown;
+    font-size: 20px;
+}
+body{
+    margin:0px;
+    padding:0px;
+}
